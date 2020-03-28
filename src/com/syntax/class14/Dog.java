@@ -1,6 +1,7 @@
 package com.syntax.class14;
 
 public class Dog {
+	
 	String breed;
 	String color;
 	String name;
@@ -12,31 +13,31 @@ public class Dog {
 		dog1.color = "brown";
 		dog1.name = "Charlie";
 		dog1.age = 3;
-		
+
 		dog1.bark();
 		dog1.eat();
 		dog1.run();
-		
+
 		Dog dog2 = new Dog();
 		dog2.breed = "buuldog";
 		dog2.color = "black";
 		dog2.name = "Lucy";
 		dog2.age = 5;
-		
+
 		dog2.bark();
 		dog2.eat();
 		dog2.run();
 	}
-	
+
 	void eat() {
-		System.out.println(name+" can eat");
+		System.out.println(name + " can eat");
 	}
-	
+
 	void bark() {
-		System.out.println(name+" can bark");
+		System.out.println(name + " can bark");
 	}
-	
+
 	void run() {
-		System.out.println(name+" can run");
+		System.out.println(name + " can run");
 	}
 }
