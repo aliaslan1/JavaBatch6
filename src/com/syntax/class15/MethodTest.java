@@ -4,19 +4,19 @@ public class MethodTest {
 
 	public static void main(String[] args) {
 		
-		Methods obj =new Methods ();
+		Methods obj=new Methods();
 		obj.sayWelcome();
-		obj.sayAnyhing("Hello", 2);
-		obj.sayAnyhing("Bye", 20);
-		//obj.sayAnyhing(10, "Hi");CE
+		obj.sayAnything("Hello", 2);
+		obj.sayAnything("Bye", 20);
+		//obj.sayAnything(10, "Hi");CE
 		
-		obj.IsItRaining(true);
-		obj.IsItRaining(false);
-
+		obj.isItRaining(true);
+		obj.isItRaining(false);
 		
-			
+		obj.evenOrOdd(23);
+		obj.isLarger(12, 13);
+		obj.isPalindrome("Madam");
+		obj.sayHello("RUSSIA");
 		
-
 	}
-
 }
