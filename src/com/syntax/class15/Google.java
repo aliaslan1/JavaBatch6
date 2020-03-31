@@ -1,8 +1,9 @@
 package com.syntax.class15;
 
 public class Google {
-	
-	// define features such as emp id, name, last name, salary, title
+
+	// define (explain-describe) features such as employee id, name, last name,
+	// salary, title
 	// define a behavior working, get paid, attending meetings
 	int empId;
 	double salary;
