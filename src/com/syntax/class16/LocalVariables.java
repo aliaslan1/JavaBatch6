@@ -31,7 +31,7 @@ public class LocalVariables {
 			System.out.println(i);
 		}
 
-		for (int i=1;i<=5; i++) {
+		for (int i=1;i<=5; i++) {k
 			System.out.println(i);
 		}
 
