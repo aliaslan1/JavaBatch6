@@ -19,9 +19,10 @@ public class StaticKeyword {
 	}
 
 	public static void main(String[] args) {
-
+		
+		// accessing static method in a static way
 		brand = "iphone";
-		touchScreen = true;// boolean value oldugu icicn true yada false olmasi gerekiyor
+		touchScreen = true;// boolean value oldugu icin true yada false olmasi gerekiyor
 
 		// accessing instance variables through the instance of the class
 		StaticKeyword obj = new StaticKeyword();
@@ -32,8 +33,8 @@ public class StaticKeyword {
 		displayGeneralInfo();// sadece methodun adini yazarak cagiriyoruz
 		obj.displayGeneralInfo();// obj ve isim yaziyoruz
 
-		// accessing atatic methods in non static way/through instance
-		obj.displayGeneralInfo(); // valid but not preferance
+		// accessing static methods in non static way/through instance
+		obj.displayGeneralInfo(); // valid but not preference
 		obj.displayGeneralInfo();
 
 	}
